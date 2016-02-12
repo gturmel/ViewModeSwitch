@@ -1,0 +1,40 @@
+/*     whole page styling     */
+
+html {
+   background-color: #eee;
+   font-family: "Verdana", sans-serif;
+   line-height: 1.4;
+}
+
+.container {
+   margin: 5%;
+   padding: 2%;
+}
+
+.main {
+   border: 0.1em solid gray;
+}
+
+header {
+   border-bottom: 0.3em solid gray;
+   text-align: right;
+   padding: 2em 0.2em 2em 2em;
+   margin: 0 2em 3em 2em;
+}
+
+header i {
+   padding-left: 1em;
+}
+
+/*      styling of the ul and li elements   */
+
+ul {
+   width: 100%;
+}
+
+li {
+   width: 32%;
+   display: inline-block;
+   text-align: center;
+   
+}
