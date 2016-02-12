@@ -36,5 +36,36 @@ li {
    width: 32%;
    display: inline-block;
    text-align: center;
-   
+   padding: 1em 0 1em 0;
+}
+
+/*    styling of internal li elements      */
+
+i {
+   color: #c0c0c0;
+}
+
+h3 {
+   color: #47a3da;
+   font-size: 1.5em;
+   margin-bottom: 0.5em;
+}
+
+.price {
+   color: #c0c0c0;
+   padding-bottom: 1em;
+}
+
+.description {
+   color: #47a3da;
+   padding-bottom: 1em;
+}
+
+.cartButton {
+   color: #eee;
+   background-color: #47a3da;
+   border: none;
+   padding: 0.7em;
+   font-size: 1em;
+   margin-bottom: 3em;
 }
