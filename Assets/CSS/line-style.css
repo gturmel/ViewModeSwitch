@@ -24,7 +24,6 @@ header {
 
 header i {
    padding-left: 1em;
-   background-color: #eee;
 }
 
 /*      styling of the ul and li elements   */
@@ -34,11 +33,10 @@ ul {
 }
 
 li {
-   width: 32%;
+   width: 90%;
    display: inline-block;
    text-align: center;
    padding: 1em 0 1em 0;
-
 }
 
 /*    styling of internal li elements      */
@@ -46,7 +44,8 @@ li {
 i {
    color: #c0c0c0;
    display: inline;
-   font-size: 3em;
+   padding-right: 0.5em;
+   font-size: 0.5em;
 }
 
 header i:hover {
@@ -57,19 +56,27 @@ h3 {
    color: #47a3da;
    font-size: 1.5em;
    margin-bottom: 0.5em;
-   /*display: inline;*/
+   display: inline-block;
+   width: 25%;
+   text-align: center;
 }
 
 .price {
    color: #c0c0c0;
    padding-bottom: 1em;
-   /*display: inline;*/
+   display: inline-block;
+   text-align: center;
+   font-size: 1.25em;
+   width: 15%;
 }
 
 .description {
    color: #47a3da;
    padding-bottom: 1em;
-   /*display: inline;*/
+   display: inline-block;
+   word-wrap: break-word;
+   text-align: center;
+   width: 25%;
 }
 
 .cartButton {
@@ -78,20 +85,12 @@ h3 {
    border: none;
    padding: 0.7em;
    font-size: 1em;
-   margin-bottom: 3em;
-   /*display: inline;*/
+   margin-top: 1.6em;
+   display: inline-block;
+   text-align: center;
+   float: right;
 }
 
 .cartButton:hover {
    background-color: #10689a;
-}
-
-.cartButton1 {
-   color: #eee;
-   background-color: #47a3da;
-   border: none;
-   padding: 0.7em;
-   font-size: 1em;
-   margin-bottom: 3em;
-   /*display: inline;*/
 }
