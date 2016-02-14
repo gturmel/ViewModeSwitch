@@ -5,16 +5,27 @@ var button = document.getElementsByClassName("cartButton");
 
 var gridIcon = document.getElementById("grid");
 
-var listIcon = document.getElementsByClassName("fa fa-bars fa-2x");
+var listIcon = document.getElementById("list");
 
 var liFormat = document.getElementsByTagName("li");
 
-var block = document.getElementsByClassName("block");
+var css = document.getElementsByClassName("block");
 
 
-// I'll need to set up a for loop to iterate through each item in each array, setting all of it to inline. Woof
+// This changes the header icons to a different color when clicked
 
 gridIcon.addEventListener("click", function(){
-   if(button[1].className = "cartButton")
-   {button[1].className = "blue"};
+   if(gridIcon.style.color = "#c0c0c0") {
+      gridIcon.style.color = "#47a3da";
+      listIcon.style.color = "#c0c0c0";
+   }
 });
+
+listIcon.addEventListener("click", function (){
+   if (listIcon.style.color = "#c0c0c0") {
+      listIcon.style.color = "#47a3da";
+      gridIcon.style.color = "#c0c0c0";
+   };
+});
+
+// Here's where the list-block style changes happen
