@@ -24,7 +24,6 @@ header {
 
 header i {
    padding-left: 1em;
-   background-color: #eee;
 }
 
 /*      styling of the ul and li elements   */
@@ -38,6 +37,10 @@ li {
    display: inline-block;
    text-align: center;
    padding: 1em 0 1em 0;
+}
+
+.price {
+   display: inline;
 
 }
 
@@ -68,7 +71,7 @@ h3 {
 
 .description {
    color: #47a3da;
-   padding-bottom: 1em;
+   padding: 0 1em 1em 1em;
    /*display: inline;*/
 }
 
@@ -84,14 +87,4 @@ h3 {
 
 .cartButton:hover {
    background-color: #10689a;
-}
-
-.cartButton1 {
-   color: #eee;
-   background-color: #47a3da;
-   border: none;
-   padding: 0.7em;
-   font-size: 1em;
-   margin-bottom: 3em;
-   /*display: inline;*/
 }
